@@ -1,7 +1,5 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -18,7 +16,7 @@ const IndexPage = () => (
         </div>
         <div class="flex flex-wrap">
           <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
-            <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">clivrt</h2>
+            <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">clivrt App</h2>
             <p class="leading-relaxed text-base mb-4">👥 💻 a CLI app that provides real-time video chat. (clivrt = CLI Video Real Time)</p>
             <a class="text-yellow-400 inline-flex items-center" href="https://github.com/collabinator/clivrt">Learn More
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
@@ -27,9 +25,9 @@ const IndexPage = () => (
             </a>
           </div>
           <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
-            <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Coming Soon</h2>
-            <p class="leading-relaxed text-base mb-4">TBA.</p>
-            <a class="text-yellow-400 inline-flex items-center">Learn More
+            <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Signaling Service</h2>
+            <p class="leading-relaxed text-base mb-4">☁️ Backend service that provides WebRTC signaling and text chat for connecting clients together</p>
+            <a class="text-yellow-400 inline-flex items-center" href="https://github.com/collabinator/clivrt-signaling-svc">Learn More
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>

@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-const Footer = ({ }) => (
+const Footer = () => (
     <footer class="text-gray-400 bg-gray-900 body-font">
 
         {/* MAYBE FOR FUTURE USE
@@ -84,9 +84,9 @@ const Footer = ({ }) => (
                         quality={95}
                         formats={["auto", "webp", "avif"]}
                         alt="Collabinator icon"
-                        class="hover:animate-spin w-10 h-10 text-white p-2 bg-yellow-500 rounded-full"
+                        class="hover:animate-spin w-10 h-10 text-white p-2 bg-yellow-500"
                         viewBox="0 0 24 24" />
-                    <span class="ml-3 text-xl">Collabinator</span>
+                    <span class="ml-3 text-xl">The Collabinator Project</span>
                 </a>
                 <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                 <a href="https://github.com/collabinator" class="github" target="_blank" rel="noopener noreferrer">

@@ -13,9 +13,9 @@ const Header = ({ siteTitle }) => (
           quality={95}
           formats={["auto", "webp", "avif"]}
           alt="Collabinator icon"
-          class="hover:animate-spin w-10 h-10 text-white p-2 bg-yellow-500 rounded-full"
+          class= "w-10 h-10 text-white p-2 bg-yellow-500"
           viewBox="0 0 24 24" />
-        <span class="ml-3 text-xl">Collabinator</span>
+        <span class="ml-3 text-xl">collabinator.io</span>
       </a>
       <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
         <a class="animate-bounce mr-5 hover:text-white">👋</a>
