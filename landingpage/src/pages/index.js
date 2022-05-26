@@ -10,7 +10,7 @@ const IndexPage = () => (
     <section class="text-gray-400 body-font bg-gray-900 h-screen">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
-          <h2 class="text-xs text-yellow-400 tracking-widest font-medium title-font mb-1">A COLLECTION OF APPS AND SERVICES</h2>
+          <h2 class="text-xs text-yellow-400 tracking-widest font-medium title-font mb-1">ABOUT OUR APPS AND SERVICES</h2>
           <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">The Collabinator Project</h1>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base">We are inventing a future where open source innovation helps people to collaborate and coordinate</p>
         </div>
@@ -34,18 +34,18 @@ const IndexPage = () => (
             </a>
           </div>
           <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
-            <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Coming Soon</h2>
+            <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Snowbooth</h2>
             <p class="leading-relaxed text-base mb-4">TBA.</p>
-            <a class="text-yellow-400 inline-flex items-center">Learn More
+            <a class="text-yellow-400 inline-flex items-center">Coming Soon
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
             </a>
           </div>
           <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
-            <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Coming Soon</h2>
+            <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">VSCode Extension</h2>
             <p class="leading-relaxed text-base mb-4">TBA.</p>
-            <a class="text-yellow-400 inline-flex items-center">Learn More
+            <a class="text-yellow-400 inline-flex items-center">In Planning Phase
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
