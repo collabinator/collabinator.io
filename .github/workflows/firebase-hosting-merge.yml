@@ -6,13 +6,16 @@ name: Deploy to Firebase Hosting on merge
   push:
     branches:
       - main
+defaults:
+  run:
+    working-directory: ./landingpage
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - working-directory: ./landingpage
-        run: npm run build
+    - - run: npm run
+      - run: npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
