@@ -12,7 +12,7 @@ const IndexPage = () => (
         <div class="flex flex-col text-center w-full mb-20">
           <h2 class="text-xs text-yellow-400 tracking-widest font-medium title-font mb-1">ABOUT OUR APPS AND SERVICES</h2>
           <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">The Collabinator Project</h1>
-          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">We are inventing a future where open source innovation helps people to collaborate and coordinate</p>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Open source for collaboration and innovation</p>
         </div>
         <div class="flex flex-wrap">
           <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
